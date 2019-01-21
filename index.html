@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Memory Game!</title>
+</head>
+<body>
+
+    <div id="spinner-body">
+        <div id="spinner"></div>
+    </div>
+
+    <section class="game-status">
+        <div></div>
+        <div class="matches">Matched:<span id="matched">0</span></div>
+        <div class="time">time:<span id="time">0</span></div>
+        <div></div>
+    </section>
+
+    <section class="memory-game">
+        <div class="memory-card" data-framework="1">
+            <img src="img/af.png" alt="af" class="front-face">
+            <img src="img/back.png" alt="back" class="back-face">
+        </div>
+        <div class="memory-card" data-framework="1">
+            <img src="img/af.png" alt="af" class="front-face">
+            <img src="img/back.png" alt="back" class="back-face">
+        </div>
+
+        <div class="memory-card" data-framework="2">
+            <img src="img/ag.png" alt="ag" class="front-face">
+            <img src="img/back.png" alt="back" class="back-face">
+        </div>
+        <div class="memory-card" data-framework="2">
+            <img src="img/ag.png" alt="ag" class="front-face">
+            <img src="img/back.png" alt="back" class="back-face">
+        </div>
+
+        <div class="memory-card" data-framework="3">
+            <img src="img/ao.png" alt="ao" class="front-face">
+            <img src="img/back.png" alt="back" class="back-face">
+        </div>
+        <div class="memory-card" data-framework="3">
+            <img src="img/ao.png" alt="ao" class="front-face">
+            <img src="img/back.png" alt="back" class="back-face">
+        </div>
+
+        <div class="memory-card" data-framework="4">
+            <img src="img/pt.png" alt="pt" class="front-face">
+            <img src="img/back.png" alt="back" class="back-face">
+        </div>
+        <div class="memory-card" data-framework="4">
+            <img src="img/pt.png" alt="pt" class="front-face">
+            <img src="img/back.png" alt="back" class="back-face">
+        </div>
+
+        <div class="memory-card" data-framework="5">
+            <img src="img/rs.png" alt="rs" class="front-face">
+            <img src="img/back.png" alt="back" class="back-face">
+        </div>
+        <div class="memory-card" data-framework="5">
+            <img src="img/rs.png" alt="rs" class="front-face">
+            <img src="img/back.png" alt="back" class="back-face">
+        </div>
+
+        <div class="memory-card" data-framework="6">
+            <img src="img/tm.png" alt="tm" class="front-face">
+            <img src="img/back.png" alt="back" class="back-face">
+        </div>
+        <div class="memory-card" data-framework="6">
+            <img src="img/tm.png" alt="tm" class="front-face">
+            <img src="img/back.png" alt="back" class="back-face">
+        </div>
+
+    </section>
+
+    <section class="start-game">
+        <button id="start" type="button">Start</button>
+    </section>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
